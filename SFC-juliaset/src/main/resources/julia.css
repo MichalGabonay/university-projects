@@ -1,0 +1,14 @@
+.root {
+    -fx-background-color: black;
+}
+
+.fractal-text {
+    -fx-text-fill: grey;
+    -fx-fill: grey;
+
+    -fx-font-family: sans-serif;
+    -fx-font-style: normal;
+    -fx-font-weight: lighter;
+    -fx-font-size: 16;
+
+}
