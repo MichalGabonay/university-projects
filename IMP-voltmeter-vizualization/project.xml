@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project outputprefix="line">
+
+    <!--  Project description -->
+    <name>IMP - proj</name>
+    <category>Demo pro MCU</category>
+    <author>Michal Gabonaz</author>
+    <authoremail>xgabon00@fit.vutbr.cz</authoremail>
+    <revision>20151215</revision>
+    <description>MSP430: Voltmetr s vizualizací průběhu napětí pomocí VGA, V</description>
+
+    <!--  MCU part -->
+    <mcu>
+        <include>mcu/libs/lcd/package.xml</include>
+        <file>main.c</file>
+        <file>adc.c</file>
+        <!-- <file>thermometer.c</file> -->
+    </mcu>
+
+    <!-- FPGA part -->
+    <fpga architecture="pc">
+        <include>fpga/ctrls/spi/package.xml</include>
+        <include>fpga/ctrls/vga/package.xml</include>
+        <include>fpga/ctrls/lcd/package.xml</include>
+        <include>fpga/ctrls/keyboard/package.xml</include>
+
+        <file>top_level.vhd</file>
+    </fpga>
+
+</project>
