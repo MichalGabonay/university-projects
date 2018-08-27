@@ -1,0 +1,19 @@
+#!/bin/bash
+
+if [ $# -lt 2 ];then 
+    echo "run: test <number_of_values> <number_of_processors>"
+    exit;
+fi;
+
+#preklad cpp zdrojaku
+mpic++ --prefix /usr/local/share/OpenMPI -o mss mss.cpp
+
+
+#vyrobeni souboru s random cisly
+dd if=/dev/urandom bs=1 count=$1 of=numbers 2>/dev/null
+
+#spusteni
+mpirun --prefix /usr/local/share/OpenMPI -np $2 mss
+
+#uklid
+rm -f mss numbers
