@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WAP - projekt</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Projekt do predmetu WAP - Internetové aplikace</h2>
+<h3>Validátor formulářů</h3>
+<a href="demo.html">Demo - ukážka použitia</a>
+<hr>
+
+Je treba importovať skript <a href="wap-validator.js">wap-validator.js</a> (na koniec dokumentu).<br>
+Pre správne fungovanie odporúčam vložiť do dokomuentu taktiež <a href="style.css">style.css</a>.
+<hr>
+<p> Na vstupné polia typu text sa pridávajú obmedzenia vkladaním atributu "data-" podľa toho aké obmedzenia chceme pridať. Takéto vstupné polia musia obsahovať vlastné id alebo name. </p>
+<p><b>Minimálna dĺžka textu:</b><br>
+Pre určenie minimálnej dĺžky textu u vstupného pola pridajte atribut "data-min" <br>
+<i>Príklad:</i><br> &lt;input type=&quot;text&quot; name=&quot;input-text&quot; data-min=&quot;5&quot;&gt;
+</p>
+<p><b>Maximálna dĺžka textu:</b><br>
+Pre určenie maximálnej dĺžky textu u vstupného pola pridajte atribut "data-max" <br>
+<i>Príklad:</i><br> &lt;input type=&quot;text&quot; name=&quot;input-text&quot; data-max=&quot;20&quot;&gt;
+</p>
+<p><b>Požadovaný formát dat zapísaný ako regulárny výraz:</b><br>
+Pre určenie minimálnej dĺžky textu u vstupného pola pridajte atribut "data-pattern" <br>
+<i>Príklad:</i><br> &lt;input type=&quot;text&quot; name=&quot;input-text&quot; data-pattern=&quot;^[_a-zA-Z0-9\.\-]+@[_a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,4}$&quot;&gt; (obmedzenie na email)
+</p>
+<p><b>Povinné alebo nepovinné pole:</b><br>
+Pre určenie minimálnej dĺžky textu u vstupného pola pridajte atribut "data-min" <br>
+<i>Príklad:</i><br> &lt;input type=&quot;text&quot; name=&quot;input-text&quot; data-required=&quot;true&quot;&gt;<br>
+&lt;input type=&quot;text&quot; name=&quot;input-text&quot; data-required=&quot;false&quot;&gt; (nepovinné pole môže byť prázdne, potom nemusí splňovať žiadne dalšie omezenia)
+</p>
+<hr>
+<p>Na každé textové vstupné pole je možno klásť ľubovoľnú kombináciu týchto obmedzení. Počas zadávania sa dynamicky zobrazuje stav formulára - správne vyplnená polia sú zelene podfarbená, zle vyplnené polia sú červeno podfarbené, nepovinné nevyplnené polia nie sú podfarbené. Tlačidlo pre odoslanie formulára je zobrazené ako zakázané, kým nie sú všetky polia správne vyplnené.</p>
+
+</body>
+</html>

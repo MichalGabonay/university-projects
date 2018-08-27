@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WAP - projekt</title>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Projekt do predmetu WAP - Internetové aplikace</h2>
+<h3>Validátor formulářů</h3>
+<a href="navod.html">Návod na použitie skriptu</a>
+<hr>
+
+<form class="validate">
+	<div>
+		<label for="minimal">Minimalne 5: </label>
+		<input type="text" name="minimal" data-min="5">
+	</div>
+	<div>
+		<label for="maximal">Maximalne 5: </label>
+		<input type="text" name="maximal" data-max="5">
+	</div>
+	<div>
+		<label for="regex">Email:</label>
+		<input type="text" name="regex" data-pattern="^[_a-zA-Z0-9\.\-]+@[_a-zA-Z0-9\.\-]+\.[a-zA-Z]{2,4}$">
+	</div>
+	<div>
+		<label for="req">Povinné:</label>
+		<input type="text" name="req" data-required=true>
+	</div>
+	<div>
+		<label for="req-numregex-max">Povinné + len čísla + max 7:</label>
+		<input type="text" name="req-numregex-max" data-required="true" data-pattern="^[0-9]*$" data-max="7">
+	</div>
+	<div>
+		<label for="notreq-numregex-min">Nepovinné + len čísla + min 3:</label>
+		<input type="text" name="req-numregex-min" data-required="false" data-pattern="^[0-9]*$" data-min="3">
+	</div>
+
+	<input type="submit" class="button" value="Potvrdit">
+</form>
+
+</body>
+</html>
+
+<script src="wap-validator.js"></script>
