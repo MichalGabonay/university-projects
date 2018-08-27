@@ -1,0 +1,15 @@
+A,B,C
+a,b,c,d
+A
+A->aaB
+A->bbC
+A->ccA
+A->d
+B->bbC
+B->ccA
+B->d
+B->aaB
+C->ccA
+C->d
+C->aaB
+C->bbC

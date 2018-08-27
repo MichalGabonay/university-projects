@@ -1,0 +1,12 @@
+T,E,F
+a,b,c,d,e
+T
+T->TaE
+T->EbF
+E->EbF
+T->cTd
+E->cTd
+F->cTd
+T->e
+E->e
+F->e
