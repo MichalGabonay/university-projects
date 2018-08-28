@@ -17,7 +17,7 @@ University projects during my studies at Brno University of Technology.
 
 | Course     | Project Name    | Points |
 | --------   | --------------  | ------ |
-| FLP (Functional and Logic Programming) | Transform context free grammare to CNF form in Haskell | 12/12 (+2 bonus) |
+| FLP (Functional and Logic Programming) | Transform context free grammare to CNF form in Haskell | 14/12 |
 | FLP (Functional and Logic Programming) | Solving rubic cube with Prolog | 8/8 |
 | IMP (Microprocessors and Embedded Systems) | Voltmeter with voltage visualization | 10/14 |
 | IPK (Computer Communications and Networks) | Program for searching informations about users in UNIX type OS | 15/15 |
