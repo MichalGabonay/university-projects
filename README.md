@@ -3,14 +3,14 @@ University projects during my studies at Brno University of Technology.
 
 
 Projects:
-* FLP - Transform context free grammare to CNF form in Haskell - 12p/12p (+2 bonus) 
-* FLP - Solving rubic cube with Prolog - 8p/8p
-* IMP - Voltmeter with voltage visualization - 10p/14p
-* IPK - Program for searching informations about users in UNIX type OS - 15p/15p
-* ISA - Simple SMTP client
-* PDS - DHCP starvation attack and DHCP rogue server - 17p/25p
-* POS - Simple Shell - 12p/12p
-* PRL - Parallel algoritm Merge-splitting sort - 8p/10p
-* PRL - Parallel preorder - 7p/10p
-* SFC - Visualization of Julia set 24p/30p
-* WAP - Form validator - 30p/30p
+* FLP (Functional and Logic Programming) - Transform context free grammare to CNF form in Haskell - 12/12 (+2 bonus) 
+* FLP (Functional and Logic Programming) - Solving rubic cube with Prolog - 8/8
+* IMP (Microprocessors and Embedded Systems) - Voltmeter with voltage visualization - 10/14
+* IPK (Computer Communications and Networks) - Program for searching informations about users in UNIX type OS - 15/15
+* ISA (Network Applications and Network Administration) - Simple SMTP client
+* PDS (Data Communications, Computer Networks and Protocols) - DHCP starvation attack and DHCP rogue server - 17/25
+* POS (Advanced Operating Systems) - Simple Shell - 12/12
+* PRL (Parallel and Distributed Algorithms) - Parallel algoritm Merge-splitting sort - 8/10
+* PRL (Parallel and Distributed Algorithms) - Parallel preorder - 7/10
+* SFC (Soft Computing) - Visualization of Julia set 24/30
+* WAP (Internet Applications) - Form validator - 30/30
