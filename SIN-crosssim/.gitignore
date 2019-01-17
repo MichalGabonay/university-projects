@@ -1,0 +1,9 @@
+
+# IntelliJ
+*.iml
+*.ipr
+*.iws
+out/
+
+# Mac
+.DS_Store

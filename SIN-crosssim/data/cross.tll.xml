@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11/16/18 17:34:29 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\micha\Desktop\crossinRoadSimulator\data\cross.net.xml"/>
+        <plain-output-prefix value="C:\Users\micha\Desktop\crossinRoadSimulator\data\cross"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<tlLogics version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/tllogic_file.xsd">
+    <tlLogic id="C0" type="static" programID="0" offset="0">
+        <phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>
+        <phase duration="3"  state="ygGgrrrrygGgrrrrrGrG"/>
+        <phase duration="7"  state="rgGgrrrrrgGgrrrrrrrr"/>
+        <phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>
+        <phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>
+        <phase duration="3"  state="rrrrgyygrrrrgyygrrrr"/>
+        <phase duration="7"  state="rrrrGrrGrrrrGrrGrrrr"/>
+        <phase duration="3"  state="rrrryrryrrrryrryrrrr"/>
+    </tlLogic>
+    <!--<tlLogic id="C0" type="static" programID="1" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="2" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="3" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="4" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="5" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="6" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="7" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="8" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+    <!--<tlLogic id="C0" type="static" programID="9" offset="0">-->
+        <!--<phase duration="37" state="GgGgrrrrGgGgrrrrrGrG"/>-->
+        <!--<phase duration="5"  state="GgGgrrrrGgGgrrrrrrrr"/>-->
+        <!--<phase duration="3"  state="yyyyrrrryyyyrrrrrrrr"/>-->
+        <!--<phase duration="37" state="rrrrgGGgrrrrgGGgGrGr"/>-->
+        <!--<phase duration="5"  state="rrrrgGGgrrrrgGGgrrrr"/>-->
+        <!--<phase duration="3"  state="rrrryyyyrrrryyyyrrrr"/>-->
+    <!--</tlLogic>-->
+
+    <connection from="E0_C0" to="C0_N0" fromLane="1" toLane="2" tl="C0" linkIndex="4"/>
+    <connection from="E0_C0" to="C0_W0" fromLane="1" toLane="1" tl="C0" linkIndex="5"/>
+    <connection from="E0_C0" to="C0_W0" fromLane="2" toLane="2" tl="C0" linkIndex="6"/>
+    <connection from="E0_C0" to="C0_S0" fromLane="2" toLane="2" tl="C0" linkIndex="7"/>
+    <connection from="N0_C0" to="C0_S0" fromLane="1" toLane="1" tl="C0" linkIndex="0"/>
+    <connection from="N0_C0" to="C0_W0" fromLane="2" toLane="1" tl="C0" linkIndex="1"/>
+    <connection from="N0_C0" to="C0_S0" fromLane="2" toLane="2" tl="C0" linkIndex="2"/>
+    <connection from="N0_C0" to="C0_E0" fromLane="2" toLane="2" tl="C0" linkIndex="3"/>
+    <connection from="S0_C0" to="C0_N0" fromLane="1" toLane="1" tl="C0" linkIndex="8"/>
+    <connection from="S0_C0" to="C0_E0" fromLane="2" toLane="2" tl="C0" linkIndex="9"/>
+    <connection from="S0_C0" to="C0_N0" fromLane="2" toLane="2" tl="C0" linkIndex="10"/>
+    <connection from="S0_C0" to="C0_W0" fromLane="2" toLane="2" tl="C0" linkIndex="11"/>
+    <connection from="W0_C0" to="C0_S0" fromLane="1" toLane="2" tl="C0" linkIndex="12"/>
+    <connection from="W0_C0" to="C0_E0" fromLane="1" toLane="1" tl="C0" linkIndex="13"/>
+    <connection from="W0_C0" to="C0_E0" fromLane="2" toLane="2" tl="C0" linkIndex="14"/>
+    <connection from="W0_C0" to="C0_N0" fromLane="2" toLane="2" tl="C0" linkIndex="15"/>
+</tlLogics>

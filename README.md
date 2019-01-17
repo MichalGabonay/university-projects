@@ -17,6 +17,9 @@ University projects during my studies at Brno University of Technology.
 
 | Course     | Project Name    | Points |
 | --------   | --------------  | ------ |
+| AIS (Information Systems Analysis and Design) | Analysis and Design of e-shop with UML | 31/34 |
+| BMS (Wireless and Mobile Networks) | ASK modulator/demodulator | 4/7 |
+| BMS (Wireless and Mobile Networks) | Error Correction Code | 8/8 |
 | FLP (Functional and Logic Programming) | Transform context free grammare to CNF form in Haskell | 14/12 |
 | FLP (Functional and Logic Programming) | Solving rubic cube with Prolog | 8/8 |
 | IMP (Microprocessors and Embedded Systems) | Voltmeter with voltage visualization | 10/14 |
@@ -27,4 +30,5 @@ University projects during my studies at Brno University of Technology.
 | PRL (Parallel and Distributed Algorithms) | Parallel algoritm Merge-splitting sort | 8/10 |
 | PRL (Parallel and Distributed Algorithms) | Parallel preorder | 7/10 |
 | SFC (Soft Computing) | Visualization of Julia set | 24/30 |
+| SIN (Intelligent Systems) | Simulation of crossroad | 13/15 |
 | WAP (Internet Applications) | Form validator | 30/30 |

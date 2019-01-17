@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11/16/18 17:34:29 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\micha\Desktop\crossinRoadSimulator\data\cross.net.xml"/>
+        <plain-output-prefix value="C:\Users\micha\Desktop\crossinRoadSimulator\data\cross"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<connections version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/connections_file.xsd">
+    <connection from="C0_E0"/>
+
+    <connection from="C0_N0"/>
+
+    <connection from="C0_S0"/>
+
+    <connection from="C0_W0"/>
+
+    <connection from="E0_C0" to="C0_N0" fromLane="1" toLane="2"/>
+    <connection from="E0_C0" to="C0_W0" fromLane="1" toLane="1"/>
+    <connection from="E0_C0" to="C0_W0" fromLane="2" toLane="2"/>
+    <connection from="E0_C0" to="C0_S0" fromLane="2" toLane="2"/>
+
+    <connection from="N0_C0" to="C0_S0" fromLane="1" toLane="1"/>
+    <connection from="N0_C0" to="C0_W0" fromLane="2" toLane="1"/>
+    <connection from="N0_C0" to="C0_S0" fromLane="2" toLane="2"/>
+    <connection from="N0_C0" to="C0_E0" fromLane="2" toLane="2"/>
+
+    <connection from="S0_C0" to="C0_N0" fromLane="1" toLane="1"/>
+    <connection from="S0_C0" to="C0_E0" fromLane="2" toLane="2"/>
+    <connection from="S0_C0" to="C0_N0" fromLane="2" toLane="2"/>
+    <connection from="S0_C0" to="C0_W0" fromLane="2" toLane="2"/>
+
+    <connection from="W0_C0" to="C0_S0" fromLane="1" toLane="2"/>
+    <connection from="W0_C0" to="C0_E0" fromLane="1" toLane="1"/>
+    <connection from="W0_C0" to="C0_E0" fromLane="2" toLane="2"/>
+    <connection from="W0_C0" to="C0_N0" fromLane="2" toLane="2"/>
+
+    <connection from="gneE9" to="W0_C0" fromLane="0" toLane="1"/>
+    <connection from="gneE9" to="W0_C0" fromLane="0" toLane="2"/>
+
+    <crossing node="C0" edges="C0_N0 N0_C0" priority="1" width="4.00"/>
+    <crossing node="C0" edges="C0_E0 E0_C0" priority="1" width="4.00"/>
+    <crossing node="C0" edges="C0_S0 S0_C0" priority="1" width="4.00"/>
+    <crossing node="C0" edges="C0_W0 W0_C0" priority="1" width="4.00"/>
+</connections>

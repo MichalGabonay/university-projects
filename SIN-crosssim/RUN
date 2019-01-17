@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+
+export SUMO_HOME="/usr/share/sumo/"
+
+#Run redis for listening
+redis-server --daemonize yes
+
+export PYTHONPATH="$PYTHONPATH:./src"
+
+python3 src/scadaGui.py &
+python3 src/crossRoadSim.py
+
+#Kill scadaGUI
+ps aux | grep scada | grep -v 'grep' | awk '{print $2}' | xargs kill
+#Kill redis
+ps aux | grep redis | grep -v 'grep' | awk '{print $2}' | xargs kill

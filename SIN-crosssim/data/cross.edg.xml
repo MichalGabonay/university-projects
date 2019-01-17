@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 11/16/18 17:34:29 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <output>
+        <output-file value="C:\Users\micha\Desktop\crossinRoadSimulator\data\cross.net.xml"/>
+        <plain-output-prefix value="C:\Users\micha\Desktop\crossinRoadSimulator\data\cross"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+    </junctions>
+
+</configuration>
+-->
+
+<edges version="1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/edges_file.xsd">
+    <edge id="C0_E0" from="C0" to="E0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="C0_N0" from="C0" to="N0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="bicycle" width="2.00"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="C0_S0" from="C0" to="S0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="bicycle" width="2.00"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="C0_W0" from="C0" to="W0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="bicycle pedestrian" width="2.00"/>
+        <lane index="2" disallow="bicycle pedestrian"/>
+    </edge>
+    <edge id="E0_C0" from="E0" to="C0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="N0_C0" from="N0" to="C0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="bicycle" width="2.00"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="S0_C0" from="S0" to="C0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" allow="bicycle" width="2.00"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="W0_C0" from="W0" to="C0" priority="-1" numLanes="3" speed="13.89">
+        <lane index="0" allow="pedestrian" width="2.00"/>
+        <lane index="1" disallow="pedestrian"/>
+        <lane index="2" disallow="pedestrian"/>
+    </edge>
+    <edge id="gneE9" from="gneJ16" to="W0" priority="-1" numLanes="1" speed="13.89"/>
+</edges>

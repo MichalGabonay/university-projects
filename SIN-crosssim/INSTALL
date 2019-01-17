@@ -1,0 +1,27 @@
+#!/bin/bash
+apt-get update &&
+apt-get install software-properties-common
+
+add-apt-repository ppa:sumo/stable && \
+    apt-get update && \
+    apt-get install -y \
+        build-essential \
+        tcl \
+        wget \
+        curl \
+        vim \
+        python \
+        python3 \
+        python-tk \
+        python3-tk \
+        python-pip \
+        python3-pip \
+        sumo \
+        sumo-tools \
+        sumo-doc
+
+pip3 install redis
+
+wget http://download.redis.io/redis-stable.tar.gz && \
+        tar xvzf redis-stable.tar.gz && \
+        cd redis-stable && make && make install

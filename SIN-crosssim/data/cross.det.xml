@@ -1,0 +1,8 @@
+<add>
+    <laneAreaDetector id="d_W0_C0_2" lane="W0_C0_2" pos="0" freq="2" file="crossW0C02.out" length="90.0"/>
+    <laneAreaDetector id="d_W0_C0_1" lane="W0_C0_1" pos="0" freq="2" file="crossW0C01.out" length="90.0"/>
+    <laneAreaDetector id="d_E0_C0_2" lane="E0_C0_2" pos="0" freq="2" file="crossE0C02.out" length="90.0"/>
+    <laneAreaDetector id="d_E0_C0_1" lane="E0_C0_1" pos="0" freq="2" file="crossE0C01.out" length="90.0"/>
+    <laneAreaDetector id="d_N0_C0_2" lane="N0_C0_2" pos="0" freq="2" file="crossN0C02.out" length="90.0"/>
+    <laneAreaDetector id="d_S0_C0_2" lane="S0_C0_2" pos="0" freq="2" file="crossS0C02.out" length="90.0"/>
+</add>
