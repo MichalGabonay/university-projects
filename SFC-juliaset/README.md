@@ -1,4 +1,4 @@
-## Visualization of Julia set
+## Visualisation of Julia set
 ## Vizualizácia Juliových množín
 
 ---
